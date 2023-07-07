@@ -4,9 +4,15 @@
       "type": "main-test-product",
       "settings": {
       }
+    },
+    "main2": {
+      "type": "contact-form",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "main2"
   ]
 }
