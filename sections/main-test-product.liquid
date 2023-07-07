@@ -2,11 +2,14 @@
 
 <img src="{{ product.featured_image | img_url:'300x' }}"/>
 
+
+{% if section.setting.show_reviews %}
 <h4> ⭐⭐⭐⭐⭐</h4>
+{% endif %}
 
 {% schema %}
   {
-    "name": "Section name",
+    "name": "main test product",
     "settings": [
       {
         "id":"tax_notice",
