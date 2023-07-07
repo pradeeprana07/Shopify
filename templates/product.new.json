@@ -3,23 +3,16 @@
     "main": {
       "type": "main-test-product",
       "settings": {
-        "tax_notice": "test",
-        "show_reviews": true
       }
     },
     "main2": {
       "type": "contact-form",
       "settings": {
-        "heading": "Contact form",
-        "heading_size": "h1",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main",
-    "main2"
+    "main2",
+    "main"
   ]
 }
